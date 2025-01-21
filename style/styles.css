@@ -1,0 +1,103 @@
+/* Default Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* Shared Styles */
+.orange {
+  color: orange;
+}
+.sky-blue {
+  color: skyblue;
+}
+.tertiary {
+  color: #05d4df;
+}
+.quartery {
+  color: #5d58ef;
+}
+/* Task -01: Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0px 20px 0px;
+  width: 100%;
+  /* background: rgb(30, 30, 30);    */
+}
+.navbar-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 186px;
+}
+.contact-btn {
+  width: 17%;
+  height: 80%;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: orange;
+  border: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: white;
+}
+.main-menu {
+  width: 33%;
+  height: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+.school-heading {
+  width: 17%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.school-heading > img {
+  width: 30%;
+}
+.school-heading > h3 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 30px;
+}
+/* Task-01 Finished */
+@media screen and (max-width: 768px) {
+  .main-menu,
+  .contact-btn,
+  .school-heading > h3 {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+  .navbar {
+    border: 0.5px solid rgb(254, 163, 1);
+  }
+  .navbar-container {
+    width: 97%;
+    height: 23%;
+  }
+  .school-heading > img {
+    /* fi_15371027 */
+    position: relative;
+    width: 46px;
+    height: 46px;
+  }
+}
