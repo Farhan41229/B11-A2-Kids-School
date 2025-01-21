@@ -79,6 +79,19 @@ li {
   line-height: 30px;
 }
 /* Task-01 Finished */
+
+/* Task-02: Start. Banner Content */
+.banner {
+  width: 80%;
+  height: 575px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-container {
+}
 @media screen and (max-width: 768px) {
   .main-menu,
   .contact-btn,
