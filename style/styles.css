@@ -378,16 +378,18 @@ li {
   }
   /* Task 03 Responsive Starts */
   .curriculum {
-    width: 370px;
-    height: 1913.51px;
+    width: 390px;
+    height: 1144.61px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: normal;
     align-items: center;
     gap: 20px;
-    padding: 40px 0px 40px 0px;
+    padding: 70px 0px 40px 0px;
     text-align: center;
+    margin: 0 auto;
   }
+
   .curriculum > h1 {
     width: 261px;
     height: 33px;
@@ -395,6 +397,9 @@ li {
     font-size: 26px;
     font-weight: 700;
     line-height: 33px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
   .card-container {
     width: 350px;
@@ -407,5 +412,31 @@ li {
   }
   .button-container {
     display: none;
+  }
+  .card {
+    width: 357px;
+    height: 321.28px;
+    padding: 36px 28px 36px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 22px;
+  }
+  .card > h1 {
+    font-size: 16.6px;
+    font-weight: 700;
+    line-height: 20.75px;
+  }
+  .card > p {
+    width: 193.81px;
+    height: 50.45px;
+    font-size: 10.22px;
+    font-weight: 500;
+    line-height: 19.16px;
+  }
+  .card > img {
+    width: 92.6px;
+    height: 92.6px;
   }
 }
