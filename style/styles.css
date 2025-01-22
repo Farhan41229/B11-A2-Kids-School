@@ -336,6 +336,10 @@ footer {
   justify-content: flex-start;
   align-items: center;
 }
+.footer-leftup > img {
+  width: 58.74px;
+  height: 69.23px;
+}
 .footer-leftup > h3 {
   font-size: 42.14px;
   font-weight: 700;
@@ -366,9 +370,8 @@ footer {
   font-size: 26px;
   font-weight: 700;
   line-height: 26px;
-  
 }
-.company-container{
+.company-container {
   display: flex;
   gap: 10px;
   margin-top: 32px;
