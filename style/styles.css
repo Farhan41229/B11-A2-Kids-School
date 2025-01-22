@@ -29,6 +29,9 @@ li {
 .quartery {
   color: #5d58ef;
 }
+.hide {
+  display: none;
+}
 /* Task -01: Navbar */
 .navbar {
   display: flex;
@@ -131,6 +134,93 @@ li {
   color: white;
 }
 /* Task-02 Finished */
+/* Task-03 Starts : Curriculum Section */
+.curriculum {
+  padding: 60px 0px 60px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  background-image: url(../assets/bg.png);
+}
+.curriculum > h1 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px;
+}
+.card-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 30px;
+  height: 54%;
+  /* padding: 50px 41px; */
+}
+.card {
+  /* height: 476.78px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 35px;
+  padding: 50px 41px;
+  border-radius: 18.86px;
+  box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.card > h2 {
+  color: rgb(32, 32, 32);
+  font-size: 24.52px;
+  font-weight: 700;
+  line-height: 30.65px;
+}
+.card-kinder {
+  border: 0.94px solid rgb(222, 245, 255);
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.card-elementary {
+  border: 0.94px solid rgb(255, 244, 220);
+  background: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.card-middle {
+  border: 0.94px solid rgb(242, 232, 255);
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+}
+.button-container {
+  width: 130px;
+  height: 60px;
+  display: flex;
+  gap: 10px;
+}
+.button-container > button {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: orange;
+  border: none;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  color: white;
+}
+/* Task 03 Finished */
 @media screen and (max-width: 768px) {
   .main-menu,
   .contact-btn,
@@ -205,4 +295,6 @@ li {
     border: none;
     font-size: 16px;
   }
+  /* Task 03 Responsive Starts */
+  
 }
