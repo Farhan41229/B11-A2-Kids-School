@@ -252,7 +252,7 @@ li {
   grid-template-columns: repeat(4, 270px);
   grid-template-rows: repeat(4, 301.61px);
   gap: 20px;
-  /* justify-items: space-between; */
+  justify-content: space-between;
 }
 .story {
   width: 270px;
@@ -264,8 +264,8 @@ li {
   /* justify-content: center; */
 }
 #special-story {
-  width: 557.27px;
-  height: 630.52px;
+  width: 600.27px;
+  height: 660.52px;
   border-radius: 16px;
   background: rgb(255, 255, 255);
   grid-row: span 2;
@@ -273,6 +273,7 @@ li {
   /* padding: 0 68px 34px 38px ;  */
   gap: 0;
   justify-content: flex-start;
+  /* padding-bottom: 30px; */
 }
 #special-story > h4 {
   width: 402.49px;
@@ -438,5 +439,70 @@ li {
   .card > img {
     width: 92.6px;
     height: 92.6px;
+  }
+  /* Task 04 Responsive Starts */
+  #special-story {
+    display: none;
+  }
+  .our-stories {
+    width: 390px;
+    height: 600.89px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0px 40px 0px;
+    margin: 30px auto;
+  }
+  .our-stories > h1 {
+    width: 390px;
+    height: 57.5px;
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .our-stories > button {
+    width: 134px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    /* margin-top: 20px; */
+  }
+  .stories-container {
+    /* display: none; */
+    width: 358px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 173.35px);
+    grid-template-rows: repeat(2, 179.59px);
+    align-content: center;
+    gap: 12px;
+  }
+  .story {
+    width: 173.35px;
+    height: 179.59px;
+  }
+  .story > img {
+    width: 173.27px;
+    height: 105.39px;
+    border-radius: 9.53px 9.53px 0px 0px;
+  }
+  .story > h4 {
+    width: 117.92px;
+    height: 28.54px;
+    font-size: 9.13px;
+    font-weight: 700;
+    line-height: 17.12px;
+    margin: 25.68px 42.52px 20px 22.83px;
   }
 }
