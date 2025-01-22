@@ -221,6 +221,87 @@ li {
   color: white;
 }
 /* Task 03 Finished */
+/* Task 04 Starts: Our Stories */
+.our-stories {
+  height: 1018.02px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding: 60px 0px 60px 0px;
+  background: url(../assets/bg.png),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+}
+.our-stories > h1 {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px;
+}
+.our-stories > button {
+  width: 14%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.stories-container {
+  width: 80.5%;
+  height: 630.52px;
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: repeat(4, 301.61px);
+  gap: 20px;
+  /* justify-items: space-between; */
+}
+.story {
+  width: 270px;
+  height: 301.61px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+#special-story {
+  width: 540.27px;
+  height: 630.52px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  grid-row: span 2;
+  grid-column: span 2;
+  /* padding: 0 68px 34px 38px ;  */
+  gap: 0;
+  justify-content: flex-start;
+}
+#special-story > h4 {
+  width: 402.49px;
+  height: 69.98px;
+  text-align: left;
+  margin: 0;
+  margin: 61px 99px 38px 50px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.35px;
+}
+#special-story > p {
+  margin: 0 69px 34px 39px;
+  color: rgb(102, 102, 102);
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+}
+.story > h4 {
+  width: 198.04px;
+  height: 47.93px;
+  margin: 40px auto;
+  font-size: 15.34px;
+  font-weight: 700;
+  line-height: 28.76px;
+}
+.story > img {
+  border-radius: 16px 16px 0 0;
+}
 @media screen and (max-width: 768px) {
   .main-menu,
   .contact-btn,
@@ -323,16 +404,6 @@ li {
     justify-content: center;
     align-items: center;
     order: 1;
-  }
-  .card {
-    /* width: 357px;
-    height: 321.28px;
-    padding: 36px 28px 36px 28px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center; */
-    /* gap: 22px; */
   }
   .button-container {
     display: none;
