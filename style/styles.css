@@ -303,6 +303,77 @@ li {
 .story > img {
   border-radius: 16px 16px 0 0;
 }
+
+/* Task 5 Starts */
+footer {
+  height: 519px;
+  background-color: #01acfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.footer {
+  width: 74%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-left {
+  width: 37%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.footer-left > p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.footer-leftup {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer-leftup > h3 {
+  font-size: 42.14px;
+  font-weight: 700;
+  line-height: 39.51px;
+  width: 206.11px;
+}
+.footer-middle {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-middle > h5 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.footer-middle > li {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  /* gap: 32px; */
+}
+.footer-right > h5 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  
+}
+.company-container{
+  display: flex;
+  gap: 10px;
+  margin-top: 32px;
+  margin-bottom: 110px;
+}
 @media screen and (max-width: 768px) {
   .main-menu,
   .contact-btn,
