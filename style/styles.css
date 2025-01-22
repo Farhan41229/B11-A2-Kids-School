@@ -296,5 +296,45 @@ li {
     font-size: 16px;
   }
   /* Task 03 Responsive Starts */
-  
+  .curriculum {
+    width: 370px;
+    height: 1913.51px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+  }
+  .curriculum > h1 {
+    width: 261px;
+    height: 33px;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+  }
+  .card-container {
+    width: 350px;
+    height: 991.61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    order: 1;
+  }
+  .card {
+    /* width: 357px;
+    height: 321.28px;
+    padding: 36px 28px 36px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; */
+    /* gap: 22px; */
+  }
+  .button-container {
+    display: none;
+  }
 }
