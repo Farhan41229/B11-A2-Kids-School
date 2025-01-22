@@ -123,6 +123,7 @@ li {
   border-radius: 12px;
   color: white;
 }
+/* Task-02 Finished */
 @media screen and (max-width: 768px) {
   .main-menu,
   .contact-btn,
@@ -143,5 +144,6 @@ li {
     position: relative;
     width: 46px;
     height: 46px;
-  }
+    /* Task-02 Responsive Starts */
+}
 }
