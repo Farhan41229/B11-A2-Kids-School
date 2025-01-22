@@ -394,6 +394,23 @@ footer {
   margin-top: 32px;
   margin-bottom: 110px;
 }
+
+.main {
+  text-align: center;
+}
+
+.marq {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.geek1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 10px;
+}
+
 @media screen and (max-width: 768px) {
   .main-menu,
   .contact-btn,
